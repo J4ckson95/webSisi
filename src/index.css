@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+  --bg-light-color: #F2F4F5;
+  --primary-light-color: #0B5345;
+  --secund-light-color: #28A745;
+  --text-light-color: #212529;
+  --accent-light-color: #E9ECEF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 95dvw;
+  margin-inline: auto;
+  background-color: #a9dcb5;
+  color: var(--text-light-color);
+  font-family: "Lato",
+    sans-serif;
+}
+
+ul {
+  list-style: none;
+}
